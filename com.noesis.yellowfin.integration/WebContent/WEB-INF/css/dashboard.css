@@ -1,0 +1,347 @@
+
+
+.mainDashLeft
+{
+	background:white;
+}
+
+.mainDashCentre
+{
+	background:white;
+	margin-left: auto; 
+    margin-right: auto
+}
+img.dashEditIcon
+{
+	display:block;
+}
+body.dashCentre
+{
+	 /* required for IE6 hovers */
+	behavior: url(css/csshover.htc);
+}
+body.dashCentre, .dashCentreMarginColour {
+	background:#DFDFDF;
+}
+
+body.dashLeft
+{
+	background:white;
+	 /* required for IE6 hovers */
+	behavior: url(css/csshover.htc);
+}
+
+#rptListRNav
+{
+	margin-bottom:20px;
+}
+
+/* .topLine */
+/* { */
+/* 	border-bottom:1px #DFDFDF solid; */
+/* 	margin-top:-1px; */
+/* 	} */
+
+.topLineBg {
+   background: url(../images/dashline.gif) repeat-x bottom;
+}
+
+.dashbackground {
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #1A3F57; BORDER-BOTTOM: medium none; FONT-FAMILY: Arial, Helvetica, sans-serif;
+}
+
+.portletTitle
+{
+	background: url('../images/rpt_title_bgrd.gif') repeat-x;
+	FONT-WEIGHT: bold; FONT-SIZE: 11px; COLOR: #444444; BORDER-BOTTOM: medium none; FONT-FAMILY: Arial, Helvetica, sans-serif;
+	border-top-left-radius: 5px;
+	border:1px gray;
+}
+
+#tabscrollnext, #tabscrollnext_off, #scrollPrevious, #scrollPreviousOff 
+{
+	margin-top:5px;
+}
+
+/*
+div#confirmDialogDiv
+{
+	width:299px;left:50%;top:50%;margin-top:-150px;margin-left:-150px;
+}
+*/
+
+/* old stuff */
+
+/* different background images for tabs */
+div.dashtabon {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 12px;
+   color:#000000;
+   border: 0px;
+   background: url(../images/tab_middle.png) repeat-x;
+   behavior: url(css/pngbehavior.htc);
+   float:left;
+   z-index:9999;
+   margin-top:0;
+}
+div.shadowedTab
+{
+	/*box-shadow: 20px -0px 20px -20px #999 inset;*/
+	behavior: url(css/PIE.htc);
+}
+
+.dashTitle
+{
+	color:#444; font-size: 11px; font-weight:bold;
+	BACKGROUND-IMAGE: url(../images/dash_middle_off.gif);
+	height:11px;
+	border:0px;
+	padding:10px;
+	margin-bottom:0px;
+}
+
+.analyticFilterDashTitle
+{
+	color:#444; font-size: 11px; font-weight:bold;
+}
+
+span#tabTitleSpan
+{
+	padding-left:12px;
+}
+
+.dashEditLink img
+{
+	padding-right:3px;
+	padding-left:7px;
+	border:none;
+	text-decoration:none;
+	vertical-align:middle;
+}
+
+a.dashEditLink:hover
+{
+	text-decoration:none;
+}
+
+a.dashEditLink:hover 
+{
+	text-decoration:underline;
+}
+
+a:hover img{
+	text-decoration:none;
+}
+
+img.tabEdge
+{
+	background:white;
+	vertical-align:middle;
+}
+
+hr.analyticFilterDivider
+{
+	color:#DFDFDF;
+	background-color:#DFDFDF;
+	height:1px;
+	border:0px;
+}
+div.dashtaboff {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 13px;
+   color: #ff9900;
+   border: 0px;
+   cursor:pointer;
+   background: #ffffff;
+   behavior: url(css/pngbehavior.htc);
+   float:left;
+   margin-top:5px;
+}
+
+span.dashtabtitle {
+   padding-left: 10px;
+   padding-right: 10px;
+   white-space:nowrap;
+}
+
+.i4dashtabs_off {
+	FONT-WEIGHT: bold;
+	FONT-SIZE: 13px;
+	BACKGROUND-IMAGE: url(../images/tab_middle_off.gif);
+	COLOR: #ff9900;
+	BORDER-BOTTOM: medium none;
+	FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+div.dashtabhover {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 13px;
+   color: white;
+   border: 0px;
+   cursor:pointer;
+   margin-top:5px;
+   background: #999999;
+   float:left;
+}
+
+.dashtabspacer {
+   border: 0px;
+
+   behavior: url(css/pngbehavior.htc);
+}
+.dial {
+   position: relative;
+   margin-left: auto;
+   margin-right: auto;
+   width: 69px;
+   height: 69px;
+}
+
+.dialblack {
+   background: transparent url(../images/param_button_black.png) top left no-repeat;
+}
+.dialgrey {
+   background: transparent url(../images/param_button_grey.png) top left no-repeat;
+}
+.dialblue {
+   background: transparent url(../images/param_button_blue.png) top left no-repeat;
+}
+.dot {
+   display: none;
+   position: absolute;
+   top: 12px;
+   left: 30px;
+   width: 9px;
+   height: 9px;
+   background: transparent url(../images/param_button_dot.png) top left no-repeat;
+   padding: 0;
+   margin: 0;
+   border: none !important;
+}
+.paramslider {
+   position: relative;
+   height: 2px;
+  background: url(../images/slider_bar_sm.gif) repeat-x;
+}
+
+.parambar {
+   display: none;
+   position: absolute;
+   top: -6px;
+   left: 0px;
+   width: 15px;
+   height: 18px;
+   padding: 0;
+   margin: 0;
+   border: none;
+}
+.parambarblue {
+   background: transparent url(../images/param_slide_blue.png) top left no-repeat;
+}
+.parambargrey {
+   background: transparent url(../images/param_slide_grey.png) top left no-repeat;
+}
+.parambarblack {
+   background: transparent url(../images/param_slide_black.png) top left no-repeat;
+}
+
+
+/* 6.0 */
+.addReport {
+   font-size: 14px;
+   color: #a0a0a0;
+   font-family: Arial, Helvetica, sans-serif;
+   font-style: italic;
+}
+.i4DashColumnHover {
+   background: #dbebf6;
+}
+.i4DashFilterDragCol {
+   background: #e8e8e8;
+   padding-top: 5px;
+}
+.i4DashFilterElement {
+   border-bottom: solid 1px #dfdfdf;
+}
+.i4DashFilterInner {
+   padding: 5px 2px 5px 5px;
+   white-space: normal;
+}
+.i4DashFilterAddGroup {
+   padding: 5px;
+   height: 43px;
+   margin-bottom: 2px;
+}
+.i4EditMenuTitle {
+   font-family: Arial, Helvetica, sans-serif;
+   font-weight: bold;
+   font-size: 14px;
+   line-height: 24px;
+   color: #666666;
+   height: 24px;
+   background: #cccccc url(../images/rpt_title_bgrd.gif);
+   border: #cccccc 1px solid;
+   padding: 0px 15px;
+}
+.i4EditMenu {
+   border-left: #cccccc 1px solid;
+   border-right: #cccccc 1px solid;
+   border-bottom: #cccccc 1px solid;
+   height: 53px;
+   background: #ffffff;
+   color: #666666;
+}
+.i4EditMenuItem {
+   display: inline-block;
+   padding: 0px 5px;
+   border-left: 1px solid #ffffff;
+   border-right: 1px solid #ffffff;
+}
+.i4EditMenuItemSelected {
+   display: inline-block;
+   padding: 0px 5px;
+   background: #cae3f1;
+   border-left: 1px solid #67a5d5;
+   border-right: 1px solid #67a5d5;
+}
+td.i4EditMenuItemImg {
+   height: 31px;
+}
+td.i4EditMenuItemLink {
+   height: 22px;
+   font-size: 11px;
+   line-height: 12px;
+   color: #357CB6;
+}
+img.i4EditMenuIcon {
+   display: block;
+   padding: 2px;
+}
+.linkedSSSelectedReport
+{
+	border-color:#5699ce; 
+	border-style:solid; 
+	border-width:2px;
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.relatedLinkedSSIncompleteReport
+{
+	border-color:#C00000; 
+	border-style:solid; 
+	border-width:2px;	
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+.relatedLinkedSSUnselectedReport
+{
+	border-color:white; 
+	border-style:solid; 
+	border-width:2px;
+	FONT-SIZE: 12px; COLOR: #000000; LINE-HEIGHT: 15px; FONT-FAMILY: Arial, Helvetica, sans-serif
+}
+
+#dashLeftSideNavFiltersDiv {
+	background-color: transparent;
+}
