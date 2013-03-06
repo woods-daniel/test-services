@@ -11,11 +11,12 @@
 			<directory>/WebContent</directory>
 			<outputDirectory>/</outputDirectory>
 		</fileSet>
+		<fileSet>
+			<directory>${project.build.directory}</directory>
+			<outputDirectory>/WEB-INF/lib/</outputDirectory>
+			<includes>
+				<include>*.jar</include>
+			</includes>
+		</fileSet>
 	</fileSets>
-	<files>
-		<file>
-			<source>/target/${project.artifactId}-${project.version}.jar</source>
-			<destName>com.noesis.yellowfin.integration.jar</destName>
-		</file>
-	</files>
 </assembly>

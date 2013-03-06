@@ -1,0 +1,14 @@
+<filter>
+	<filter-name>AuthFilter</filter-name>
+	<filter-class>com.noesis.AuthenticationFilter</filter-class>
+	<init-param>
+		<param-name>scheduler</param-name>
+		<param-value>https://msapplication1.noesisenergy.com/Scheduler/RestResolver.svc/jsonp/Find?serviceName=Brazos.Platform.Services.KeyMaster
+		</param-value>
+	</init-param>
+</filter>
+
+<filter-mapping>
+	<filter-name>AuthFilter</filter-name>
+	<url-pattern>/*</url-pattern>
+</filter-mapping>
